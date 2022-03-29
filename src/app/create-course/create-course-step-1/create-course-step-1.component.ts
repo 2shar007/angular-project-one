@@ -2,7 +2,7 @@ import {Component} from '@angular/core';
 import {FormBuilder, Validators} from '@angular/forms';
 import { MatCalendarCellClassFunction } from '@angular/material/datepicker';
 
-
+const SAMPLE_TEXT= "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin enim quam, semper et sodales in, aliquam vitae leo. Suspendisse quis eleifend nisl. Nunc ante ligula, ultricies sed quam et, consectetur laoreet enim.";
 @Component({
   selector: "create-course-step-1",
   templateUrl:"create-course-step-1.component.html",

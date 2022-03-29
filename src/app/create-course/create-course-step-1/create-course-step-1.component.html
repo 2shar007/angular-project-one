@@ -62,6 +62,23 @@
 
 
         </mat-datepicker>
+    </mat-form-field>
+        <mat-checkbox color="primary" formControlName="downloadsAllowed"
+        [indeterminate]="true">
+
+        Downloads allowed?
+
+       </mat-checkbox>
+
+    <mat-form-field appearance="outline">
+
+        <textarea matInput placeholder="Description" formControlName="longDescription"
+
+                  cdkTextareaAutosize [cdkAutosizeMinRows]="2"
+                  [cdkAutosizeMaxRows]="5">
+
+        </textarea>
+
 
 
     </mat-form-field>
